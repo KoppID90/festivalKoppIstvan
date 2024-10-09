@@ -7,7 +7,8 @@ const eventService = new EventService();
 /* fesztivál hozzáadása */
 
 const musicFestival = new Event(
-    1, "Volt Fesztivál",
+    1, 
+    "Volt Fesztivál",
     "Sopron",
     new Date('2024-06-15T14:00:00'),
     [],
