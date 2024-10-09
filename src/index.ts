@@ -35,3 +35,8 @@ musicFestival.addParticipant(participant2);
 musicFestival.removeParticipant(participant1);
 
 console.log(musicFestival);
+
+/* Zene típusú fesztiválok lekérdezése */
+
+const musicEvents = eventService.getEventsByType("Zene");
+console.log(`Zenei események száma: ${musicEvents.length}`);
